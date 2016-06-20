@@ -20,7 +20,7 @@ const shouldBuildAll = argv.all || false;
 const DEFAULT_OPTS = {
   dir: './',
   name: appName,
-  asar: true,
+  asar: false,
   prune: true,
   'app-bundle-id': 'com.cu3po42.keysave',
   'app-category-type': 'public.app-category.productivity',
